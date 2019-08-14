@@ -10,7 +10,11 @@ import SwiftUI
 
 struct SecondView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        Image("metallica")
+        .resizable()
+            .aspectRatio(contentMode: .fit)
+            .frame(width: UIScreen.main.bounds.width * 0.8, height: UIScreen.main.bounds.height * 0.3)
+        
     }
 }
 

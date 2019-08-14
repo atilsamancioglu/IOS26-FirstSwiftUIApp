@@ -9,8 +9,17 @@
 import SwiftUI
 
 struct FifthView: View {
+    
+    @State var myName = "James"
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+        Text(myName)
+            .font(.largeTitle)
+            .padding()
+            
+        TextField("placeholder", text: $myName)
+        }
     }
 }
 

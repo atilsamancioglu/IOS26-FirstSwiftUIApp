@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC6B4A622303FB7E00012541 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6B4A612303FB7E00012541 /* ThirdView.swift */; };
+		FC6B4A642303FE2D00012541 /* FourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6B4A632303FE2D00012541 /* FourthView.swift */; };
+		FC6B4A662304004600012541 /* FifthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6B4A652304004600012541 /* FifthView.swift */; };
 		FC813BA32303F5930029BBB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC813BA22303F5930029BBB4 /* AppDelegate.swift */; };
 		FC813BA52303F5930029BBB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC813BA42303F5930029BBB4 /* SceneDelegate.swift */; };
 		FC813BA72303F5930029BBB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC813BA62303F5930029BBB4 /* ContentView.swift */; };
 		FC813BA92303F5950029BBB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC813BA82303F5950029BBB4 /* Assets.xcassets */; };
 		FC813BAC2303F5950029BBB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC813BAB2303F5950029BBB4 /* Preview Assets.xcassets */; };
 		FC813BAF2303F5950029BBB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC813BAD2303F5950029BBB4 /* LaunchScreen.storyboard */; };
+		FC813BB72303F8EB0029BBB4 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC813BB62303F8EB0029BBB4 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC6B4A612303FB7E00012541 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		FC6B4A632303FE2D00012541 /* FourthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthView.swift; sourceTree = "<group>"; };
+		FC6B4A652304004600012541 /* FifthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthView.swift; sourceTree = "<group>"; };
 		FC813B9F2303F5930029BBB4 /* FirstSwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC813BA22303F5930029BBB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC813BA42303F5930029BBB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		FC813BAB2303F5950029BBB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FC813BAE2303F5950029BBB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC813BB02303F5950029BBB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC813BB62303F8EB0029BBB4 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				FC813BA22303F5930029BBB4 /* AppDelegate.swift */,
 				FC813BA42303F5930029BBB4 /* SceneDelegate.swift */,
 				FC813BA62303F5930029BBB4 /* ContentView.swift */,
+				FC813BB62303F8EB0029BBB4 /* SecondView.swift */,
+				FC6B4A612303FB7E00012541 /* ThirdView.swift */,
+				FC6B4A632303FE2D00012541 /* FourthView.swift */,
+				FC6B4A652304004600012541 /* FifthView.swift */,
 				FC813BA82303F5950029BBB4 /* Assets.xcassets */,
 				FC813BAD2303F5950029BBB4 /* LaunchScreen.storyboard */,
 				FC813BB02303F5950029BBB4 /* Info.plist */,
@@ -147,7 +159,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC813BA32303F5930029BBB4 /* AppDelegate.swift in Sources */,
+				FC6B4A622303FB7E00012541 /* ThirdView.swift in Sources */,
 				FC813BA52303F5930029BBB4 /* SceneDelegate.swift in Sources */,
+				FC813BB72303F8EB0029BBB4 /* SecondView.swift in Sources */,
+				FC6B4A642303FE2D00012541 /* FourthView.swift in Sources */,
+				FC6B4A662304004600012541 /* FifthView.swift in Sources */,
 				FC813BA72303F5930029BBB4 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
